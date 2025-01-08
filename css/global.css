@@ -339,6 +339,9 @@ section#product_category .container .category{
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+
 }
 
 .product img {
@@ -364,6 +367,27 @@ section#product_category .container .category{
 .carousel-button.next {
   right: 10px;
 }
+
+/* =================== BLOG ======================= */
+
+section#blog .container{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding: 20px 0;
+}
+
+.blog_spot_container{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 50px 0 0;
+  gap:40px;
+}
+
 
 /* =================== FOOTER ======================= */
 
