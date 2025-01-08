@@ -379,7 +379,7 @@ section#blog .container{
   padding: 20px 0;
 }
 
-.blog_spot_container{
+section#blog .blog_spot_container{
   width:100%;
   display:flex;
   align-items:center;
